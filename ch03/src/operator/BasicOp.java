@@ -4,12 +4,12 @@ public class BasicOp {
 	public static void main(String[] args) {
 		int day, remainder;
 		day = remainder = 365;				// day = (remainder = 365);
-		int week = 365 / 7;					// Á¤¼ö/Á¤¼ö °á°ú´Â Á¤¼ö
+		int week = 365 / 7;					// ì •ìˆ˜/ì •ìˆ˜ ê²°ê³¼ëŠ” ì •ìˆ˜
 
-		System.out.format("1³âÀº %dÀÏÀÌ¸ç %dÁÖÀÌ´Ù.%n", day, week);
+		System.out.format("1ë…„ì€ %dì¼ì´ë©° %dì£¼ì´ë‹¤.%n", day, week);
 		// remainder = remainder % 7;
 		System.out.println(remainder %= 7);
-		// remainder¿¡ ÀúÀåµÇ´Â °ªÀÌ °á°ú °ª
-		System.out.println(remainder); 				// À§ °á°ú¿Í ÀÏÄ¡
+		// remainderì— ì €ì¥ë˜ëŠ” ê°’ì´ ê²°ê³¼ ê°’
+		System.out.println(remainder); 				// ìœ„ ê²°ê³¼ì™€ ì¼ì¹˜
 	}
 }

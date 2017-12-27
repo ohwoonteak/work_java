@@ -3,13 +3,13 @@ package operator;
 public class IncDecOP {
 	public static void main(String[] args) {
 		int m = 50, n = 30;
-		System.out.printf("%d %d %n", m--, n++);   //¸ÕÀú »ç¿ëÇÏ°í °¨¼ÒÇÑ´Ù ¸ÕÀú»ç¿ëÇÏ°í Áõ°¡½ÃÅ²´Ù.
+		System.out.printf("%d %d %n", m--, n++);   //ë¨¼ì € ì‚¬ìš©í•˜ê³  ê°ì†Œí•œë‹¤ ë¨¼ì €ì‚¬ìš©í•˜ê³  ì¦ê°€ì‹œí‚¨ë‹¤.
 		
-		System.out.printf("%d %d %n", m, n);			//°¨¼Ò°¡µÇ¾î¼­ Ãâ·Â Áõ°¡°¡µÇ¾î¼­ Ãâ·Â
+		System.out.printf("%d %d %n", m, n);			//ê°ì†Œê°€ë˜ì–´ì„œ ì¶œë ¥ ì¦ê°€ê°€ë˜ì–´ì„œ ì¶œë ¥
 		
-		System.out.printf("%d %d %n", --m, ++n);	//¸ÕÀú °¨¼Ò½ÃÅ°°í »ç¿ë ¸ÕÀú Áõ°¡½ÃÅ°°í »ç¿ë
+		System.out.printf("%d %d %n", --m, ++n);	//ë¨¼ì € ê°ì†Œì‹œí‚¤ê³  ì‚¬ìš© ë¨¼ì € ì¦ê°€ì‹œí‚¤ê³  ì‚¬ìš©
 		
-		System.out.printf("%d %d %n", m, n);			//¹Ù·ÎÀ§¿¡ °á°ú °ªÀ» Ãâ·Â
+		System.out.printf("%d %d %n", m, n);			//ë°”ë¡œìœ„ì— ê²°ê³¼ ê°’ì„ ì¶œë ¥
 		
 	}
 }

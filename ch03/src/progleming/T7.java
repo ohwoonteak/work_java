@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class T7 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("»ó¹İ±âÀÏ±î¿ä ÇÏ¹İ±âÀÏ±î¿ä?");
+		System.out.println("ìƒë°˜ê¸°ì¼ê¹Œìš” í•˜ë°˜ê¸°ì¼ê¹Œìš”?");
 
 		int month = input.nextInt();
 
@@ -16,7 +16,7 @@ public class T7 {
 		case 4:
 		case 5:
 		case 6:
-			System.out.printf("%d¿ùÀº »ó¹İ±â ÀÔ´Ï´Ù.\n", month);
+			System.out.printf("%dì›”ì€ ìƒë°˜ê¸° ì…ë‹ˆë‹¤.\n", month);
 			break;
 		case 7:
 		case 8:
@@ -24,10 +24,10 @@ public class T7 {
 		case 10:
 		case 11:
 		case 12:
-			System.out.printf("%d¿ùÀº ÇÏ¹İ±â ÀÔ´Ï´Ù.\n", month);
+			System.out.printf("%dì›”ì€ í•˜ë°˜ê¸° ì…ë‹ˆë‹¤.\n", month);
 			break;
 		default:
-			System.err.println("Àß¸ø ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.\n");
+			System.err.println("ì˜ëª» ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.\n");
 
 		}
 	}

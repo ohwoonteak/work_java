@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class T9 {
 public static void main(String[] args) {
 	Scanner input = new Scanner(System.in);
-	System.out.println("Å°¿Í ¸ö¹«°Ô¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+	System.out.println("í‚¤ì™€ ëª¸ë¬´ê²Œë¥¼ ìž…ë ¥í•˜ì„¸ìš”.");
 	double kidney = 
 			
 }

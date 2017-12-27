@@ -5,9 +5,9 @@ public class Helloprintf {
 		
 		
 		/*
-		 * d(Decimal) : 10Áø¼ö
-		 * o(Octal) : 8Áø¼ö
-		 * h(hexadecimal),x,:16Áø¼ö
+		 * d(Decimal) : 10ì§„ìˆ˜
+		 * o(Octal) : 8ì§„ìˆ˜
+		 * h(hexadecimal),x,:16ì§„ìˆ˜
 		 * $
 		 */
 		
@@ -18,9 +18,9 @@ public class Helloprintf {
 		System.out.format("%+6d,%6o,%6h %n", 30, 30, 30);
 		System.out.format("%1$6d,%1$6o,%1$6h %n", 128);
 		
-		/*.2:´Â µÎ¹øÂ°ÀÚ¸®±îÁö Ç¥½Ã
-		 * .3:Àº ¼¼¹øÂ°ÀÚ¸®±îÁö Ç¥½Ã
-		 * 6Àº 6Ä­À» Â÷Áö 
+		/*.2:ëŠ” ë‘ë²ˆì§¸ìë¦¬ê¹Œì§€ í‘œì‹œ
+		 * .3:ì€ ì„¸ë²ˆì§¸ìë¦¬ê¹Œì§€ í‘œì‹œ
+		 * 6ì€ 6ì¹¸ì„ ì°¨ì§€ 
 		 */
 		System.out.printf("%1$6.2f,%1$6.3f,%1$6.4f %n", 3.141592);
 		

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class T4 {
 public static void main(String[] args) {
 	Scanner ad = new Scanner(System.in);
-	System.out.println("¿Âµµ¸¦ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+	System.out.println("ì˜¨ë„ë¥¼ì…ë ¥í•´ì£¼ì„¸ìš”.");
 	
 	double da = ad.nextDouble();
 	F = (9.0 / 5.0) * C + 32;

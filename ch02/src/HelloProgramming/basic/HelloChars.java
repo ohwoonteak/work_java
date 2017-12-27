@@ -7,7 +7,7 @@ public class HelloChars {
 		System.out.println('\142');
 		System.out.println('\uAC00');
 		System.out.println('\uAC01');
-		System.out.println('°­');
+		System.out.println('ê°•');
 
 		
 		System.out.println("Hello\nWorld\tHi\bA\rB");

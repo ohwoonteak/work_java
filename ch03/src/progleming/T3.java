@@ -2,20 +2,20 @@ package progleming;
 
 import java.util.Scanner;
 /*
- * ¹«°ÔÀÇ ´ÜÀ§ÀÎ Å³·Î±×·¥À» ¼Ò¼ö·Î ÀÔ·Â¹Ş¾Æ ÆÄ¿îµå·Î °è»êÇÏ¿© 
- * ¼Ò¼öÁ¡ 3ÀÚ¸®±îÁö Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+ * ë¬´ê²Œì˜ ë‹¨ìœ„ì¸ í‚¬ë¡œê·¸ë¨ì„ ì†Œìˆ˜ë¡œ ì…ë ¥ë°›ì•„ íŒŒìš´ë“œë¡œ ê³„ì‚°í•˜ì—¬ 
+ * ì†Œìˆ˜ì  3ìë¦¬ê¹Œì§€ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì‹œì˜¤.
  * 
- * -1ÆÄ¿îµå(pound)´Â 0.453592(kg)
+ * -1íŒŒìš´ë“œ(pound)ëŠ” 0.453592(kg)
  */
 public class T3 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("Å³·Î±×·¥À» ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("í‚¬ë¡œê·¸ë¨ì„ ì…ë ¥í•˜ì„¸ìš”.");
 
 		double kg = input.nextDouble();
 		double pound = kg * 1000000/453592;
 
-		System.out.printf("ÆÄ¿îµå(pound): %.3f",pound);
+		System.out.printf("íŒŒìš´ë“œ(pound): %.3f",pound);
 
 	}
 }

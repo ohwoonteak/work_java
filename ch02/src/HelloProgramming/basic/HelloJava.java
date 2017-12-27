@@ -1,14 +1,14 @@
 package HelloProgramming.basic;
 
 public class HelloJava {
-	//°­»ç´ÔÀÌÇÑ°Å
+	//ê°•ì‚¬ë‹˜ì´í•œê±°
 	static String name = "Hello, Java Application!";
 	
 	public static void main(String[] args) {
 		
 		System.out.println(name);
 		
-		//³»°¡ÇÑ°Å
+		//ë‚´ê°€í•œê±°
 		/*System.out.println("Hello, Java Application!");*/
 	}
 }

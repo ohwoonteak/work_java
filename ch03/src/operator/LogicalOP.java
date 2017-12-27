@@ -3,20 +3,20 @@ package operator;
 public class LogicalOP {
 	public static void main(String[] args) {
 		
-			System.out.format("%5b && %5b | %b %n", true, true, true&&true);			//³í¸®°ö
+			System.out.format("%5b && %5b | %b %n", true, true, true&&true);			//ë…¼ë¦¬ê³±
 			
-			System.out.format("%5b && %5b | %b %n", true, false, true&&false);		//³í¸®°ö
+			System.out.format("%5b && %5b | %b %n", true, false, true&&false);		//ë…¼ë¦¬ê³±
 			
-			System.out.format("%5b && %5b | %b %n", false, true, false&&true);		//³í¸®°ö
+			System.out.format("%5b && %5b | %b %n", false, true, false&&true);		//ë…¼ë¦¬ê³±
 			
-			System.out.format("%5b || %5b | %b %n", true, false, true||false);			//³í¸®ÇÕ
+			System.out.format("%5b || %5b | %b %n", true, false, true||false);			//ë…¼ë¦¬í•©
 			
-			System.out.format("%5b || %5b | %b %n", false, true, false||true);			//³í¸®ÇÕ
+			System.out.format("%5b || %5b | %b %n", false, true, false||true);			//ë…¼ë¦¬í•©
 			
-			System.out.format("%5b || %5b | %b %n", false, false,false||false);		//³í¸®ÇÕ
+			System.out.format("%5b || %5b | %b %n", false, false,false||false);		//ë…¼ë¦¬í•©
 			
-			System.out.format("!%5b | %b %n",true,!true);										//ºÎÁ¤
+			System.out.format("!%5b | %b %n",true,!true);										//ë¶€ì •
 			
-			System.out.format("!%5b | %b %n",false,!false);										//ºÎÁ¤
+			System.out.format("!%5b | %b %n",false,!false);										//ë¶€ì •
 			}
 }

@@ -2,8 +2,8 @@ package HelloProgramming.basic;
 
 public class HelloProgramming02 {
 
-	static String hello04 = "¾È³çÇÏ¼¼¿ä. ¿©·¯ºÐ";
-	static String hello02 = "¾È³çÇÏ¼¼¿ä";
+	static String hello04 = "ì•ˆë…•í•˜ì„¸ìš”. ì—¬ëŸ¬ë¶„";
+	static String hello02 = "ì•ˆë…•í•˜ì„¸ìš”";
 
 	public static void main(String[] args) {
 		String hello03 = "Hello! Everyone";

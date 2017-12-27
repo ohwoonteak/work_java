@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class T2 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("µÎ ½Ç¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä >>");
+		System.out.println("ë‘ ì‹¤ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” >>");
 		
-		//¸í½ÃÀû Çüº¯È¯
+		//ëª…ì‹œì  í˜•ë³€í™˜
 		int a = (int)input.nextDouble();
 		int b = (int)input.nextDouble();
 		
 		
-		//¹¬½ÃÀû Çüº¯È¯
+		//ë¬µì‹œì  í˜•ë³€í™˜
 		/*
-		 * a¿ÍbÀÇ ÇÕÀº int ÇüÀÌ°í
-		 * double sum º¯¼ö¿¡ Áı¾î³ÖÀ» ¶§ ÀÚµ¿À¸·Î double ÇüÀ¸·Î º¯°æµÈ´Ù.
+		 * aì™€bì˜ í•©ì€ int í˜•ì´ê³ 
+		 * double sum ë³€ìˆ˜ì— ì§‘ì–´ë„£ì„ ë•Œ ìë™ìœ¼ë¡œ double í˜•ìœ¼ë¡œ ë³€ê²½ëœë‹¤.
 		 * 
-		 * double sum°ú intÇü 2¸¦ ³ª´³±â ¶§¹®¿¡ °á°ú´Â doubleÇüÀÌ°í
-		 * ¸¶Âù°¡Áö·Î double avg º¯¼ö¿¡ Áı¾î ³Ö¾ú±â ¶§¹®¿¡ ÀÚµ¿À¸·Î doubleÇüÀ¸·Î ¹Ù²ï´Ù.
+		 * double sumê³¼ intí˜• 2ë¥¼ ë‚˜ëˆ´ê¸° ë•Œë¬¸ì— ê²°ê³¼ëŠ” doubleí˜•ì´ê³ 
+		 * ë§ˆì°¬ê°€ì§€ë¡œ double avg ë³€ìˆ˜ì— ì§‘ì–´ ë„£ì—ˆê¸° ë•Œë¬¸ì— ìë™ìœ¼ë¡œ doubleí˜•ìœ¼ë¡œ ë°”ë€ë‹¤.
 		 */
 		double sum = a + b;	
 		double avg = sum / 2;
 
-		System.out.printf("ÇÕ: %.2f, Æò±Õ: %.2f %n",sum,avg);
+		System.out.printf("í•©: %.2f, í‰ê· : %.2f %n",sum,avg);
 		
 	}
 }

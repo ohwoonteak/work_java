@@ -7,19 +7,19 @@ public class TopPound {
 		/*
 		 * java.util.Scanner input = new java.util.Scanner(System.in);
 		 * 
-		 * System.out.println("´ÜÀ§ Ãâ·ÂÇÏ±â");
+		 * System.out.println("ë‹¨ìœ„ ì¶œë ¥í•˜ê¸°");
 		 * 
 		 * double i = input.nextDouble();
 		 * 
-		 * System.out.println(i + "kg"+ "Àº2.2Ib");
+		 * System.out.println(i + "kg"+ "ì€2.2Ib");
 		 * 
 		 * }
 		 */
 		Scanner input = new Scanner(System.in);
 		double weight = input.nextDouble();
-		System.out.println("¹«°Ô: " + weight + "kg");
+		System.out.println("ë¬´ê²Œ: " + weight + "kg");
 
 		double pound = weight * 2.2;
-		System.out.println("¹«°Ô:" + pound + "Ib");
+		System.out.println("ë¬´ê²Œ:" + pound + "Ib");
 	}
 }

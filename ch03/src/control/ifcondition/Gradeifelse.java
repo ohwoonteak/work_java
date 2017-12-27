@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Gradeifelse {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("¼ºÀû ÀÔ·Â: ");
-		int point = input.nextInt();		//°ªÀ» ÀÔ·Â¹Ş±âÀü¿¡ ¾Æ·¡ ÄÚµå´Â ½ÇÇàµÇÁö ¾Ê´Â´Ù.
+		System.out.println("ì„±ì  ì…ë ¥: ");
+		int point = input.nextInt();		//ê°’ì„ ì…ë ¥ë°›ê¸°ì „ì— ì•„ë˜ ì½”ë“œëŠ” ì‹¤í–‰ë˜ì§€ ì•ŠëŠ”ë‹¤.
 		char grade;
 
 		if (90 <= point) {
@@ -21,6 +21,6 @@ public class Gradeifelse {
 		else {
 			grade = 'F';
 		}
-		System.out.println("ÇĞÁ¡: " + grade);
+		System.out.println("í•™ì : " + grade);
 	}
 }

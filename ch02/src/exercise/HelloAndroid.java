@@ -6,9 +6,9 @@ public class HelloAndroid {
 				
 				System.out.println(str);
 	
-	/*º¯¼ö¼±¾ð
+	/*ë³€ìˆ˜ì„ ì–¸
 	 * String str;
-	 *ÃÊ±âÈ­
+	 *ì´ˆê¸°í™”
 	 *str =  "hello, Android Application!";
 	 *System.out.println(str);
 	 */

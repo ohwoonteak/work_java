@@ -5,10 +5,10 @@ public class Weatherif {
 		int degree = 30;
 
 		if (30 <= degree) {
-			System.out.println("³¯¾¾°¡ ´þ½À´Ï´Ù.");
-		}																// { °¡ ¾øÀ¸¸é ¹Ù·Î ¹Ø¿¡¸¸ Àû¿ëµÈ´Ù
+			System.out.println("ë‚ ì”¨ê°€ ë¥ìŠµë‹ˆë‹¤.");
+		}																// { ê°€ ì—†ìœ¼ë©´ ë°”ë¡œ ë°‘ì—ë§Œ ì ìš©ëœë‹¤
 		
-		System.out.println("³¯¾¾ ¿¹º¸¿´½À´Ï´Ù.");
+		System.out.println("ë‚ ì”¨ ì˜ˆë³´ì˜€ìŠµë‹ˆë‹¤.");
 
 	}
 }

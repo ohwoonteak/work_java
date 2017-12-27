@@ -7,12 +7,12 @@ public static void main(String[] args) {
 	double x , y;
 	int op;
 	Scanner input = new Scanner(System.in);
-	System.out.print("µÎ ½Ç¼ö ÀÔ·Â: ");
+	System.out.print("ë‘ ì‹¤ìˆ˜ ì…ë ¥: ");
 	x = input.nextDouble(); y = input.nextDouble();
-	System.out.print("¹øÈ£¼±ÅÃ 1(+), 2(-), 3(*), 4(/): ");
+	System.out.print("ë²ˆí˜¸ì„ íƒ 1(+), 2(-), 3(*), 4(/): ");
 	op = input.nextInt();
 	switch (op){
-		case 1:				//case1,case2ÀÌ·¸°Ô ÄŞ¸¶¸¦ÂïÀ¸¸é¾ÈµÈ´Ù.
+		case 1:				//case1,case2ì´ë ‡ê²Œ ì½¤ë§ˆë¥¼ì°ìœ¼ë©´ì•ˆëœë‹¤.
 			System.out.printf("%.2f + %.2f = %.2f\n",x , y , x + y );
 			break;
 		case 2:
@@ -25,7 +25,7 @@ public static void main(String[] args) {
 			System.out.printf("%.2f / %.2f = %.2f\n",x , y , x / y );
 			break;
 			default:
-				System.err.printf("¿¬»êÀÚ ¹øÈ£¸¦ Àß¸ø ÀÔ·ÂÇß½À´Ï´Ù.\n");
+				System.err.printf("ì—°ì‚°ì ë²ˆí˜¸ë¥¼ ì˜ëª» ì…ë ¥í–ˆìŠµë‹ˆë‹¤.\n");
 	}
 }
 }

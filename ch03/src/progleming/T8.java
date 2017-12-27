@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class T8 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("¼¼¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ì„¸ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		int num1 = input.nextInt();
 		int num2 = input.nextInt();
 		int num3 = input.nextInt();
@@ -13,6 +13,6 @@ public class T8 {
 		
 		int res = num1 > num2 ? 
 				(num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3);
-				System.out.println("°¡Àå Å« ¼ö: "+ res);
+				System.out.println("ê°€ì¥ í° ìˆ˜: "+ res);
 	}
 }

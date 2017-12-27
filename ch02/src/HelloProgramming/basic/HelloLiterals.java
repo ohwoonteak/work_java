@@ -6,7 +6,7 @@ public class HelloLiterals {
 	static float pi = 3.14_15F;
 
 	public static void main(String[] args) {
-		System.out.println(0b1010); // ÀÌÁø¼ö
+		System.out.println(0b1010); // ì´ì§„ìˆ˜
 		System.out.println(016);
 		System.out.println(0x1F);
 		System.out.println(3.14f);

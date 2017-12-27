@@ -7,13 +7,13 @@ public class RelationalOP {
 
 		Scanner input = new Scanner(System.in);
 
-		System.out.println("µÎ Á¤¼ö¸¦ ÀÔ·Â >>");
+		System.out.println("ë‘ ì •ìˆ˜ë¥¼ ìž…ë ¥ >>");
 
 		int x = input.nextInt();
 
 		int y = input.nextInt();
 		
-					//formatÀ» printf·Î ½áµµ »ó°ü¾ø´Ù.
+					//formatì„ printfë¡œ ì¨ë„ ìƒê´€ì—†ë‹¤.
 		
 		System.out.format("%d > %d -> %b %n", x, y, x > y);
 
@@ -27,7 +27,7 @@ public class RelationalOP {
 
 		System.out.format("%d != %d -> %b %n", x, y, x != y);
 		
-		input.close();		//Scanner Á¾·á
+		input.close();		//Scanner ì¢…ë£Œ
 
 	}
 }

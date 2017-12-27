@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class T6 {
 public static void main(String[] args) {
 	Scanner input = new Scanner(System.in);
-	System.out.println("¼ıÀÚ¸¦ÀÔ·ÂÇÏ¼¼¿ä.");
+	System.out.println("ìˆ«ìë¥¼ì…ë ¥í•˜ì„¸ìš”.");
 	
 	
 	int Num = input.nextInt();
 	
-	System.out.printf("%d ¸¸, %d Ãµ, %d ¹é, %d ½Ê,%d",Num,Num,Num,Num,Num);
+	System.out.printf("%d ë§Œ, %d ì²œ, %d ë°±, %d ì‹­,%d",Num,Num,Num,Num,Num);
 
 	
 }

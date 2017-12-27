@@ -4,15 +4,15 @@ public class DevideByZero {
 		public static void main(String[] args) {
 			short data1 = 32766;
 			short data2 = 1;
-			//short data3 = data1 + data2;   //´õÇÑ °á°ú°¡ intÇüÀ¸·Î º¯È¯		 
-			short data3 = (short) (data1 + data2);			//¸í½ÃÀû Çüº¯È¯ int - > short
+			//short data3 = data1 + data2;   //ë”í•œ ê²°ê³¼ê°€ intí˜•ìœ¼ë¡œ ë³€í™˜		 
+			short data3 = (short) (data1 + data2);			//ëª…ì‹œì  í˜•ë³€í™˜ int - > short
 			short data4 = 32766 + 1;
 			System.out.println(data3+ " " + data4);
 			
 			
-			System.out.println(0.0 / 0.0);		//not a Number (¼ıÀÚ°¡ ¾Æ´Ï´Ù) ½Ç¼öÇü¿¡¸¸ Á¸ÀçÇÑ´Ù.double,flort
-			System.out.println(3 / 0.0);		// ¹«ÇÑ´ëÀÇ ¼ıÀÚ°¡ ³ª¿Â´Ù (3ÀÌ doubleÇüÀ¸·Î º¯È¯)
-			System.out.println(3 / 0);			//Á¤¼ö¸¦ 0À¸·Î ³ª´­ ¼ö ¾ø±â ¶§¹®¿¡ ¿¹¿Ü ¹ß»ı
+			System.out.println(0.0 / 0.0);		//not a Number (ìˆ«ìê°€ ì•„ë‹ˆë‹¤) ì‹¤ìˆ˜í˜•ì—ë§Œ ì¡´ì¬í•œë‹¤.double,flort
+			System.out.println(3 / 0.0);		// ë¬´í•œëŒ€ì˜ ìˆ«ìê°€ ë‚˜ì˜¨ë‹¤ (3ì´ doubleí˜•ìœ¼ë¡œ ë³€í™˜)
+			System.out.println(3 / 0);			//ì •ìˆ˜ë¥¼ 0ìœ¼ë¡œ ë‚˜ëˆŒ ìˆ˜ ì—†ê¸° ë•Œë¬¸ì— ì˜ˆì™¸ ë°œìƒ
 		
 			
 		

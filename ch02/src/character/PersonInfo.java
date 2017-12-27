@@ -7,22 +7,22 @@ public class PersonInfo {
 	 * static int a tatic double age
 	 * 
 	 * public static void main(String[] args) { java.util.Scanner input = new
-	 * java.util.Scanner(System.in); System.out.println("¸ö¹«°Ô¿Í Å°¸¦ Ãâ·ÂÇÏ±â");
+	 * java.util.Scanner(System.in); System.out.println("ëª¸ë¬´ê²Œì™€ í‚¤ë¥¼ ì¶œë ¥í•˜ê¸°");
 	 * 
-	 * String age = input.next(); int a = input.nextInt(); System.out.println("¸ö¹«°Ô:"
-	 * + a + "Å°:" + age);
+	 * String age = input.next(); int a = input.nextInt(); System.out.println("ëª¸ë¬´ê²Œ:"
+	 * + a + "í‚¤:" + age);
 	 * 
 	 * }
 	 */
 	public static void main(String[] args) {
-		System.out.println("¸ö¹«°Ô¿Í Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ëª¸ë¬´ê²Œì™€ í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 
-		// Å°º¸µå ÀÔ·ÂÀ» ¹ŞÀ» ÁØºñ ³¡
+		// í‚¤ë³´ë“œ ì…ë ¥ì„ ë°›ì„ ì¤€ë¹„ ë
 		Scanner x = new Scanner(System.in);
 
 		int weight = x.nextInt();
 		double height = x.nextDouble();
-		System.out.printf("¸ö¹«°Ô: %dkg, Å°:%fcm", weight, height);
+		System.out.printf("ëª¸ë¬´ê²Œ: %dkg, í‚¤:%fcm", weight, height);
 		x.close();
 	}
 }
