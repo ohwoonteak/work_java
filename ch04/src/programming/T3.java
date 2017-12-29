@@ -13,7 +13,6 @@ public class T3 {
 		do {
 
 			System.out.print(num % 10); // num을 10으로 나눈 나머지 출력
-
 			num = num / 10; // num을 10으로 나눈 몫을 num에 저장
 
 		} while (num > 0);

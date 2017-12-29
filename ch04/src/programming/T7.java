@@ -2,20 +2,16 @@ package programming;
 
 public class T7 {
 	public static void main(String[] args) {
-		
-		
-		for(int n =1,total=0; total<5000; n++) {
-			
-			total +=n;
-			
-			System.out.printf("1에서 %d까지 합은 %d입니다.%n",n,total);
-			
-		
-		
-		
-		
-		
-		
+
+		int n = 0;
+		int sum = 0;
+
+		while (sum < 5000) {
+			n++;
+			sum += n;
+
 		}
+		System.out.printf("가장 큰 합: %d, 그 때의 n: %d", sum - n, n--);
+
 	}
 }
