@@ -4,7 +4,11 @@ public class TestDrive {
 	public static void main(String[] args) {
 
 		// 강사 상훈 생성 - Teacher 클래스의 객체(Object)를 생성
+		// Teacher()는 기본 생성자를 호출한 것이다.
 		Teacher sanghoon = new Teacher();
+		Teacher changmok = new Teacher("수학");
+		Teacher gildong = new Teacher("국어", 3);
+		Teacher younghee = new Teacher("영어", 10, "영희선생 어학원");
 
 		// 강사 sanghoon의 정보 입력
 		sanghoon.setaddress("상도동");
@@ -15,9 +19,13 @@ public class TestDrive {
 		sanghoon.setssn("861201");
 		sanghoon.setsubject("프로그래밍");
 		sanghoon.setyear(1);
-
+		
+		//Person의 print() 메소드 호출
+		sanghoon.print();	//Person의 print() 메소드 호출
+		sanghoon.print();	//Teacher의 print() 메소드 호출
 		// 학생 taehyun 생성 - Student 클래스의 객체(Object)를 생성
 		Student taehyun = new Student();
+		
 
 		// 학생 taehyun의 정보 입력
 		taehyun.setaddress("서울");
@@ -59,5 +67,13 @@ public class TestDrive {
 		System.out.println(taehyun.getmajor());
 		System.out.println(taehyun.getName());
 		System.out.println(taehyun.getage());
+		
+		// (default) 접근 제한자로 변경 시 발생하는 문제
+		//sanghoon.ssn = "801201";
+		//System.out.println("주민등록번호 날조: " + sanghoonssn());
+		
+		//외부에서 날조를 예방하는 방법
+		sanghoon.setssn("801201");
+		System.out.println("주민등록번호 날조: " + sanghoon.getssn());
 	}
 }

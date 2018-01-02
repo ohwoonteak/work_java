@@ -23,4 +23,8 @@ public class Person extends Animal{
 	public void setaddress(String address) {
 		this.address = address;
 	}
+	//메소드 - Person의 내용을 출력
+	public void print() {
+		System.out.println("주민등록번호 : " + this.ssn + " " + "주소 : "+ this.address);
+	}
 }
