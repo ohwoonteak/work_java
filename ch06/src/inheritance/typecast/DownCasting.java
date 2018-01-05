@@ -6,15 +6,15 @@ public class DownCasting {
 		System.out.println(she.name + " " + she.number);
 		
 		//Faculty f = she;		//컴파일 오류
-		//Faculty f1 = (Faculty) she;	//실행오류
+		//Faculty f1 = (Faculty) she;	//실행오류 (Runtime Exception)
 		
 		
 		Person p = new Staff("김상기", 1187543, "강서대학교", 3456);
 		//Staff s = p; 		//컴파일 오류
-		Staff s = (Staff) p;
+		Staff s = (Staff) p;			//다운캐스팅
 		s.division = "교학처";
-		System.out.println(p.name + " " + p.number + " ");
-		System.out.println(s.name + " " + s.number + " ");
+		System.out.print(p.name + " " + p.number + " ");
+		System.out.print(s.nuiv + " " + s.number + " ");
 		System.out.println(s.division);
 	}
 	
